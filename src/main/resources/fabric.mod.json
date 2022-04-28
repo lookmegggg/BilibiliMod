@@ -6,11 +6,11 @@
   "name": "BiliBili Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "PlainsVillager"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/PlainsVillager/BilibiliMod",
+    "sources": "https://github.com/PlainsVillager/BilibiliMod"
   },
 
   "license": "MPL-2.0",
