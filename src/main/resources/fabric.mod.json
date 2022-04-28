@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "bilibilimod",
+  "version": "0.1",
 
-  "name": "Example Mod",
+  "name": "BiliBili Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -14,16 +14,16 @@
   },
 
   "license": "MPL-2.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/bilibilimod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.plainsvillager.bilibilimod.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "bilibilimod.mixins.json"
   ],
 
   "depends": {
