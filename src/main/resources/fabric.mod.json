@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.plainsvillager.bilibilimod.ExampleMod"
+      "net.plainsvillager.bilibilimod.BiliBiliMod"
     ]
   },
   "mixins": [
