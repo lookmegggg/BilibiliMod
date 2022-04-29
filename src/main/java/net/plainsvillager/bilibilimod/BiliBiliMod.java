@@ -3,6 +3,10 @@ package net.plainsvillager.bilibilimod;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Items;
+import net.minecraft.util.Rarity;
+import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +15,7 @@ public class BiliBiliMod implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
-	public static final Item =
+	public static final Item BILIBILIITEM = (new Item(new Item.Settings().fireproof().rarity(Rarity.EPIC).group(ItemGroup.MISC)));
 
 	@Override
 	public void onInitialize() {
